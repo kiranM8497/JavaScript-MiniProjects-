@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <script src="Script.js"></script>
+
+  <div class="nav">
+    <ul class="main">
+      <li>
+        <div class="logo">
+          Potato | Season
+        </div>
+      </li>
+
+      <a href="">
+        <li>Send Money
+      </a></li>
+      <a href="">
+        <li>Converter
+      </a></li>
+      <a href="">
+        <li>Currency API
+      </a></li>
+      <a href="">
+        <li>Tools
+      </a></li>
+      <a href="">
+        <li>Resources
+      </a></li>
+
+    </ul>
+    <div class="reg ">
+      <ul>
+        <li>Sign in</li>
+        <button class="btn"> Register</button>
+      </ul>
+    </div>
+
+
+
+  </div>
+  <div class="container">
+    <div class="box">
+      <Form action=" /action.php" method="get" class="form">
+        <div class="converter">
+          <div class="amount">
+            <label for="amount">Amount</label>
+            <input type="text" name="quantity" placeholder="₹1">
+          </div>
+
+          <div class="convert">
+
+            <button>➡</button>
+          </div>
+          <div class="to">
+
+            <label for="currency">Currency</label>
+            <Select name="currency" id="toCurrency" class="toCurrency">
+              <option value="usd">US Dollar - USD</option>
+              <option value="inr">Indian Rupee - INR</option>
+              <option value="eur">Euro - EUR</option>
+            </Select>
+          </div>
+        </div>
+
+      </Form>
+
+      <div class="box-2">
+
+        <div class="display">
+          <h2>Here are your converted values 💁</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Currency</th>
+                <th>Currency Code</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+
+          </table>
+
+        </div>
+
+        <div class="submit-btn">
+          <button class="convert-btn">Convert</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <footer class="footer">
+    Copyright &copy; All rights reserved
+  </footer>
+</body>
+
+</html>
